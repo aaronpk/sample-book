@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sample Book</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/book.css">
+</head>
+<body>
+
+<section class="frontcover">
+  <img alt="Cover" src="images/cover.png" />
+</section>
+
+<section class="titlepage">
+  <h1>Sample Book</h1>
+  <h2>An example of HTML formatting for creating a print book</h2>
+  <h3 class="author">Aaron Parecki</h3>
+</section>
+
+<section class="imprint">
+  <h2>Sample Book</h2>
+  <p>by Author Name</p>
+  <p>Copyright © 2018 by Okta, Inc.</p>
+  <p>Published by Okta, Inc. 301 Brannan Street, San Francisco, CA</p>
+  <br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <p>ISBN: XXX-X-XXX-XXXXX-X</p>
+</section>
+
+<section class="toc">
+  <h1>Table of Contents</h1>
+
+  <ul class="toc">
+    <li class="chapter"><a href="#basic-formatting">Basic Formatting</a></li>
+    <li class="chapter"><a href="#chapter-with-subheaders">Chapter with Subheaders</a></li>
+    <li class="chapter">
+      <a href="#chapter-with-subsections">Chapter with Subsections</a>
+      <ul>
+        <li><a href="#subsection-example">Subsection One</a></li>
+        <li><a href="#subsection-two">Subsection Two</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <br><br><br>
+  <p>I usually write a script to generate this automatically</p>
+</section>
+
+<section class="h-entry chapter" id="basic-formatting">
+  <h1 class="p-name">Basic Formatting</h1>
+
+  <p>Use paragraphs, blockquotes and lists, bold, italic, pre and code blocks.</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend congue convallis. Suspendisse consectetur odio suscipit lectus efficitur, ullamcorper aliquam elit pellentesque. Donec vitae quam et nisi vulputate porta id quis enim. Nulla malesuada eu lacus eget finibus. Ut quis <i>justo vel erat</i> rhoncus rhoncus sit amet sit amet purus. Donec ex arcu, facilisis sit amet ligula id, efficitur suscipit felis. <b>Aliquam ut sollicitudin nunc.</b> Vestibulum aliquet posuere nulla vitae ullamcorper. Quisque dignissim est eu quam porttitor, vel sodales nulla maximus. Donec at urna eros. Proin in risus lacus. Sed sed tellus diam.</p>
+
+  <p>Praesent maximus eget dui ultrices vestibulum. Suspendisse commodo dapibus est ut interdum. Ut tincidunt tempor mauris, et blandit ante posuere et. Maecenas efficitur erat at aliquet scelerisque. Nulla facilisi. Aenean ut urna dapibus enim blandit aliquet.</p>
+
+  <blockquote>
+    <p>Suspendisse commodo dapibus est ut interdum. Ut tincidunt tempor mauris, et blandit ante posuere et.</p>
+    <div class="author">Maecenas Dignissim, April 2018</div>
+  </blockquote>
+
+  <p>Aliquam sollicitudin diam quam, vel accumsan dolor eleifend vitae. Nulla augue ipsum, pretium in orci vitae, consectetur faucibus sapien. Curabitur sollicitudin sagittis fringilla. Pellentesque erat est, volutpat dignissim tempus nec, auctor eu nunc. Aliquam ac risus nisl. Phasellus ac imperdiet tellus. Nullam tellus ipsum, ultricies et diam sed, scelerisque blandit nisl.</p>
+
+  <aside>
+    <h5>An Aside</h5>
+    <p>In hac habitasse platea dictumst. Proin ut ultrices mauris. Sed nec neque ut purus egestas pharetra. Vestibulum leo lectus, euismod ullamcorper enim vitae, porttitor rutrum urna. Quisque auctor venenatis felis, non efficitur ante vestibulum nec.</p>
+  </aside>
+
+  <p>Aenean blandit justo ac nulla porta, ut cursus risus bibendum. Duis maximus augue metus, a feugiat metus lobortis ac. Donec pulvinar turpis quis nulla egestas blandit. Cras nec convallis ante. In luctus metus vitae porttitor tristique. Phasellus tempus sollicitudin lacus, eget semper mi tincidunt nec. Aliquam posuere magna in nisl pellentesque sollicitudin.</p>
+
+  <p>Sed fringilla velit cursus, rutrum mi varius, euismod eros. Praesent porta sapien eu porta convallis. Maecenas est enim, feugiat a elementum a, volutpat nec felis. Vestibulum a libero mattis nulla convallis molestie quis sit amet magna. Donec suscipit volutpat lacinia.</p>
+
+  <ul>
+    <li>Suspendisse maximus erat vitae dignissim mollis.</li>
+    <li>Fusce suscipit blandit sem at egestas.</li>
+    <li>Sed nibh purus, consectetur et est consectetur, blandit efficitur urna.</li>
+    <li>Quisque bibendum, eros vitae tincidunt efficitur</li>
+    <li>Lacus nisl lacinia quam, in blandit velit nisi quis massa.</li>
+  </ul>
+
+  <p>Maecenas quis eros in arcu suscipit eleifend. Ut eu sapien ac massa volutpat porta. Donec a facilisis nibh, sit amet gravida felis. Proin arcu ipsum, tempor et lacinia in, rhoncus congue arcu. Praesent a sollicitudin tortor. Maecenas dignissim eros venenatis velit sagittis, non scelerisque enim molestie.</p>
+
+  <pre>GET / HTTP/1.1
+Host: example.com</pre>
+
+  <pre>{
+  "lorem": "ipsum",
+  "nulla": {
+    "velit": "tincidunt"
+  }
+}</pre>
+
+  <p>Eu purus a, suscipit <code>malesuada metus</code>. Nunc non urna eu sapien maximus pulvinar ut et lacus. Sed tincidunt nibh non metus euismod, ac dignissim tortor elementum. Nam eget elementum nisi. Quisque fermentum ante eu pretium malesuada. Phasellus auctor sagittis ante, quis tempus purus lacinia in.</p>
+
+  <p>In <a href="#a-laptop" class="figref"></a> we see a laptop next to a phone on a couch. Vestibulum vitae vehicula lectus. Aenean aliquet augue sit amet iaculis condimentum. Ut tincidunt fermentum sem ac semper. Sed fringilla velit cursus, rutrum mi varius, euismod eros.</p>
+
+  <figure id="a-laptop">
+    <img src="images/goran-ivos-246271-unsplash.jpg">
+    <figcaption>A laptop on a couch next to a phone</figcaption>
+  </figure>
+
+</section>
+
+<section class="h-entry chapter" id="chapter-with-subheaders">
+  <h1 class="p-name">Chapter with Subheaders</h1>
+
+  <p>For chapters that have headers, follow this example.</p>
+
+  <section>
+    <h2>Subheader One</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend congue convallis. Suspendisse consectetur odio suscipit lectus efficitur, ullamcorper aliquam elit pellentesque. Donec vitae quam et nisi vulputate porta id quis enim. Nulla malesuada eu lacus eget finibus. Ut quis justo vel erat rhoncus rhoncus sit amet sit amet purus. Donec ex arcu, facilisis sit amet ligula id, efficitur suscipit felis.</p>
+  </section>
+
+  <section>
+    <h2>Subheader Two</h2>
+
+    <p>Aliquam ut sollicitudin nunc. Vestibulum aliquet posuere nulla vitae ullamcorper. Quisque dignissim est eu quam porttitor, vel sodales nulla maximus. Donec at urna eros. Proin in risus lacus. Sed sed tellus diam.</p>
+
+    <p>Praesent maximus eget dui ultrices vestibulum. Suspendisse commodo dapibus est ut interdum. Ut tincidunt tempor mauris, et blandit ante posuere et. Maecenas efficitur erat at aliquet scelerisque. Nulla facilisi. Aenean ut urna dapibus enim blandit aliquet.</p>
+  </section>
+
+  <p>Aliquam sollicitudin diam quam, vel accumsan dolor eleifend vitae. Nulla augue ipsum, pretium in orci vitae, consectetur faucibus sapien. Curabitur sollicitudin sagittis fringilla. Pellentesque erat est, volutpat dignissim tempus nec, auctor eu nunc. Aliquam ac risus nisl. Phasellus ac imperdiet tellus. Nullam tellus ipsum, ultricies et diam sed, scelerisque blandit nisl.</p>
+
+  <p>In hac habitasse platea dictumst. Proin ut ultrices mauris. Sed nec neque ut purus egestas pharetra. Vestibulum leo lectus, euismod ullamcorper enim vitae, porttitor rutrum urna. Quisque auctor venenatis felis, non efficitur ante vestibulum nec. Suspendisse maximus erat vitae dignissim mollis. Fusce suscipit blandit sem at egestas. Sed nibh purus, consectetur et est consectetur, blandit efficitur urna. Quisque bibendum, eros vitae tincidunt efficitur, lacus nisl lacinia quam, in blandit velit nisi quis massa. Sed pellentesque urna lorem, eu ornare mauris dapibus eu. Praesent nec hendrerit odio, eget semper lorem. Cras dictum libero in convallis lobortis.</p>
+</section>
+
+
+<section class="h-entry chapter" id="chapter-with-subsections">
+  <h1 class="p-name">Chapter with Subsections</h1>
+
+  <p>For chapters that have subsections which you want to appear in the table of contents, follow this example. The additional tags and IDs allow the table of contents to be generated automatically.</p>
+
+  <section class="h-entry" id="subsection-example">
+    <h2 class="p-name">Subsection One</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend congue convallis. Suspendisse consectetur odio suscipit lectus efficitur, ullamcorper aliquam elit pellentesque. Donec vitae quam et nisi vulputate porta id quis enim. Nulla malesuada eu lacus eget finibus. Ut quis justo vel erat rhoncus rhoncus sit amet sit amet purus. Donec ex arcu, facilisis sit amet ligula id, efficitur suscipit felis.</p>
+  </section>
+
+  <section class="h-entry" id="subsection-two">
+    <h2 class="p-name">Subsection Two</h2>
+
+    <p>Aliquam ut sollicitudin nunc. Vestibulum aliquet posuere nulla vitae ullamcorper. Quisque dignissim est eu quam porttitor, vel sodales nulla maximus. Donec at urna eros. Proin in risus lacus. Sed sed tellus diam.</p>
+
+    <p>Praesent maximus eget dui ultrices vestibulum. Suspendisse commodo dapibus est ut interdum. Ut tincidunt tempor mauris, et blandit ante posuere et. Maecenas efficitur erat at aliquet scelerisque. Nulla facilisi. Aenean ut urna dapibus enim blandit aliquet.</p>
+  </section>
+
+  <p>Aliquam sollicitudin diam quam, vel accumsan dolor eleifend vitae. Nulla augue ipsum, pretium in orci vitae, consectetur faucibus sapien. Curabitur sollicitudin sagittis fringilla. Pellentesque erat est, volutpat dignissim tempus nec, auctor eu nunc. Aliquam ac risus nisl. Phasellus ac imperdiet tellus. Nullam tellus ipsum, ultricies et diam sed, scelerisque blandit nisl.</p>
+
+  <p>In hac habitasse platea dictumst. Proin ut ultrices mauris. Sed nec neque ut purus egestas pharetra. Vestibulum leo lectus, euismod ullamcorper enim vitae, porttitor rutrum urna. Quisque auctor venenatis felis, non efficitur ante vestibulum nec. Suspendisse maximus erat vitae dignissim mollis. Fusce suscipit blandit sem at egestas. Sed nibh purus, consectetur et est consectetur, blandit efficitur urna. Quisque bibendum, eros vitae tincidunt efficitur, lacus nisl lacinia quam, in blandit velit nisi quis massa. Sed pellentesque urna lorem, eu ornare mauris dapibus eu. Praesent nec hendrerit odio, eget semper lorem. Cras dictum libero in convallis lobortis.</p>
+</section>
+
+
+</body>
+</html>
